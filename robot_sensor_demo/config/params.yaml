@@ -1,0 +1,11 @@
+distance_sensor_driver:
+  ros__parameters:
+    publish_rate: 10.0
+    min_range: 0.2
+    max_range: 5.0
+    noise_stddev: 0.05
+
+obstacle_avoidance_node:
+  ros__parameters:
+    obstacle_threshold: 1.0
+    forward_speed: 0.5
