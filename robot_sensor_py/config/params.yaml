@@ -1,0 +1,10 @@
+modbus_driver:
+  ros__parameters:
+    ip: "127.0.0.1"
+    port: 5020
+    publish_rate: 10.0
+
+obstacle_avoidance_node:
+  ros__parameters:
+    obstacle_threshold: 1.0
+    forward_speed: 0.5
