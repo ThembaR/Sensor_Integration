@@ -12,11 +12,11 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        Node(
-            package='robot_sensor_demo',
-            executable='distance_sensor_driver',
-            parameters=[config]
-        ),
+        # Node(
+        #     package='robot_sensor_demo',
+        #     executable='distance_sensor_driver',
+        #     parameters=[config]
+        # ),
         Node(
             package='robot_sensor_demo',
             executable='obstacle_avoidance_node',
