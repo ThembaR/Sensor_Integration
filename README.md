@@ -19,3 +19,21 @@ The system separates hardware communication from robot behavior using ROS2 topic
 
 ## System Architecture
 
+![Architecture](docs/architecture.png)
+
+## ROS2 Graph
+
+![ROS Graph](docs/ros_graph.png)
+
+## Installation
+
+```bash
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+
+git clone <repo>
+
+cd ~/ros2_ws
+
+colcon build --symlink-install
+source install/setup.bash
